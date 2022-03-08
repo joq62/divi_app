@@ -1,0 +1,10 @@
+{application,divi_app,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{divi_app_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[divi_app_app,divi_app_sup,mydivi]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
